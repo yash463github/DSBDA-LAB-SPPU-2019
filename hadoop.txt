@@ -21,3 +21,6 @@ hadoop fs -cat /input1/data.txt
 hadoop jar C:/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar wordcount /input1 /out
 
 hadoop fs -cat /out/*
+
+if any doubt refer the th video:-
+https://youtu.be/knAS0w-jiUk?si=zpbxrAhnTsjJKJRV
