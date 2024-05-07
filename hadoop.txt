@@ -1,0 +1,23 @@
+for downloading hadoop files, java, configuration files
+https://etherpad.opendev.org/p/TE_DSBDA
+
+
+C:\Users\Yash Dhumal>hdfs namenode -format force
+
+C:\Users\Yash Dhumal>cd/
+
+C:\>cd hadoop/sbin
+
+start-dfs.cmd
+
+start-yarn.cmd
+
+hadoop fs -mkdir /input1
+
+hadoop fs -put c:/data.txt /input1
+
+hadoop fs -cat /input1/data.txt
+
+hadoop jar C:/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar wordcount /input1 /out
+
+hadoop fs -cat /out/*
